@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="207.791" height="185.372" viewBox="0 0 207.791 185.372">
+  <g id="Group_5290" data-name="Group 5290" transform="translate(4.076 4)">
+    <g id="Icon_feather-at-sign" data-name="Icon feather-at-sign" transform="translate(0 57.261)" opacity="0.3">
+      <path id="Path_7040" data-name="Path 7040" d="M60.042,36.021A24.021,24.021,0,1,1,36.021,12,24.021,24.021,0,0,1,60.042,36.021Z" transform="translate(24.035 24.033)" fill="none" stroke="#cfbed9" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <path id="Path_7041" data-name="Path 7041" d="M87.076,39.032V69.059a18.016,18.016,0,1,0,36.031,0V63.053a60.052,60.052,0,1,0-23.54,47.681" transform="translate(-2.999 -3)" fill="none" stroke="#cfbed9" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    </g>
+    <path id="Icon_feather-phone" data-name="Icon feather-phone" d="M107.7,81.423V97.191A10.512,10.512,0,0,1,96.245,107.7,104.02,104.02,0,0,1,50.884,91.567,102.5,102.5,0,0,1,19.347,60.03,104.02,104.02,0,0,1,3.211,14.459,10.512,10.512,0,0,1,13.67,3H29.439a10.512,10.512,0,0,1,10.512,9.041,67.489,67.489,0,0,0,3.679,14.77A10.512,10.512,0,0,1,41.265,37.9L34.59,44.577A84.1,84.1,0,0,0,66.127,76.114L72.8,69.438a10.512,10.512,0,0,1,11.091-2.365,67.489,67.489,0,0,0,14.77,3.679,10.512,10.512,0,0,1,9.041,10.67Z" transform="translate(92.008 -3)" fill="none" stroke="#cfbed9" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity="0.3"/>
+  </g>
+</svg>

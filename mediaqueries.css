@@ -1,0 +1,1899 @@
+/* Media Queries */
+
+
+
+
+
+
+
+
+/* *{outline: 2px solid red;} */
+@media screen and (max-width: 1550px) {
+  .footer-links-section {
+    padding-inline: 80px;
+  }
+
+  /* .blogs .container{max-width: 1624px;width: 100%;padding-inline: 80px } */
+}
+
+@media screen and (max-width: 1450px) {
+  .testimony-card {
+    max-width: 580px;
+  }
+
+  .testimonial-arrow-controls .glide__arrow--right {
+    right: 2rem;
+  }
+
+  /* .faq-container{margin-inline: 100px;} */
+  .lp-sc8 {
+    padding-inline: 81px;
+  }
+
+  .faq-container {
+    padding: 40px 53px 44px 45px;
+  }
+
+  .visa-cost .container {
+    padding-inline: 80px;
+  }
+
+}
+
+@media screen and (max-width:1350px) {
+
+  .maid-profile__view-details {
+    padding: 17px 39px 20px;
+  }
+
+  .maid-profile__hire-now {
+    padding: 17px 42px 20px;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding-inline: 80px;
+  }
+
+  .hero-sub-section .hero-img {
+    display: none;
+  }
+
+  .hero-headings {
+    max-width: 872px;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 0;
+    text-align: center;
+  }
+
+  .lp-form {
+    max-width: 770px;
+    margin-inline: auto;
+  }
+
+  .hero-searchMaids {
+    max-width: 350px;
+    margin-inline: auto;
+  }
+
+  header h2.section-heading {
+    font-size: 50px;
+  }
+
+  section.lp-sc2 {
+    padding-inline: 81px;
+  }
+
+  .maid-available {
+    padding-block: 25px;
+  }
+
+  .maid-online a.search-link {
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    line-height: 18px;
+    padding: 8px 51px 9px 52px;
+    max-width: 226px;
+  }
+
+  .maid-online p {
+    margin-block: 20px 36px;
+    font-size: 18px;
+  }
+
+  .maid-online {
+    padding: 25px 22px 25px 25px;
+  }
+
+  .lp-sc3 .section-heading {
+    padding-block: 80px 26px;
+  }
+
+  .lp-sc3>header+p {
+    margin-bottom: 36px;
+  }
+
+  .maid-profile {
+    max-width: 508px;
+  }
+
+
+
+
+  .maid-profile__view-details,
+  .maid-profile__hire-now {
+    padding: unset;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-block: 16px 20px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .maid-profile__view-details {
+    max-width: 48%;
+  }
+
+  .maid-profile__hire-now {
+    max-width: 52%;
+  }
+
+  .maid-profile__details--wrapper {
+    padding: 16px 18px 18px 16px;
+  }
+
+  .maid-profile__details .maidName {
+    margin-bottom: 12px;
+    line-height: 18px;
+  }
+
+  :is(.maidLoc, .maidNational) span,
+  .maid-profile__visa-status {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .maidSpecialities p {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 6px 10px;
+    align-self: center;
+    text-align: center;
+  }
+
+  .maid-loc-icon {
+    height: 14px;
+    width: 14px;
+  }
+
+  .maidDemographs {
+    align-items: center;
+  }
+
+  .maidDemographs :is(p, span, div) {
+    line-height: 12px;
+  }
+
+  .maidSalary>p {
+    line-height: 17px;
+  }
+
+  .glide+.p-sliders__filters {
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+  .profile__custom--filters--group {
+    padding-bottom: 80px;
+  }
+
+  .lp-sc4 .section--wrapper {
+    padding-inline: 81px 0px;
+  }
+
+  .lp-sc4 header h2 {
+    margin-block: 80px 39px;
+  }
+
+  .why-customers-sec__img>img {
+    max-width: 411px;
+  }
+
+  .lp-sc4 .why-card {
+    margin-inline-end: 20px;
+    padding: 20px 18px 18px 18px;
+    max-width: 250px;
+  }
+
+  .lp-sc4 .why-card figure>svg {
+    height: 63px;
+    width: 64px;
+  }
+
+  .lp-sc4 .why-card figure figcaption {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    padding: 0px;
+    margin-block: 10px 15px;
+  }
+
+  .lp-sc4__reasons {
+    margin-bottom: 90px;
+  }
+
+  .why-card p {
+    font-size: 13px;
+    margin-block: 10px 15px;
+    line-height: 22px;
+  }
+
+  .lp-sc4 .why-ratings {
+    margin-block: 0px;
+  }
+
+  .why-ratings>svg {
+    width: 29px;
+    height: 25px;
+  }
+
+  .why-ratings__stars>svg {
+    height: 15px;
+    width: 15px;
+  }
+
+  .reasons__why-cards {
+    align-self: center;
+    padding-block: 0px;
+  }
+
+  .lp-sc5 {
+    padding-block: 80px 90px;
+    padding-inline: 81px;
+  }
+
+  .lp-sc5>header+p {
+    margin-block: 26px 44px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .trustee-facts article {
+    flex-basis: 246px;
+  }
+
+  .trustee-facts header>h3 {
+    font-size: 60px;
+  }
+
+  .trustee-facts header>h5 {
+    font-size: 24px;
+    margin-block: 12px 24px;
+  }
+
+  .counter-txt {
+    font-size: 16px;
+    line-height: 24px;
+    color: #919191;
+  }
+
+  .lp-sc6 {
+    margin-block: 88px 91px;
+  }
+
+  .maid-on-job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 37.5%;
+  }
+
+  .get-the-job header h2.section-heading {
+    font-size: 46px;
+  }
+
+  .get-the-job {
+    width: 62.5%;
+  }
+
+  .get-the-job p {
+    margin-block: 28px 32px;
+    padding-block: 0px;
+  }
+
+  .get-the-job a {
+    padding: 14px 27px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .lp-sc7 {
+    padding-block: 80px 90px;
+  }
+
+  .lp-sc7>header {
+    margin-block: unset;
+    margin-bottom: 37px;
+  }
+
+  .testimonial-arrow-controls .glide__arrow--right {
+    display: none;
+  }
+
+  .testimony-card {
+    padding: 39px 40px 40px
+  }
+
+  .lp-sc7 {
+    padding-inline: 81px;
+  }
+
+  .lp-sc8 {
+    padding-block: 80px 90px;
+    padding-inline: 81px;
+  }
+
+  .faq-links {
+    margin-block: 30px 48px;
+  }
+
+  .faq-links a {
+    font-size: 13px;
+    padding: 11px 24px 12px 17px;
+  }
+
+  .lp-sc8 header h2.section-heading {
+    font-size: 45px;
+  }
+
+  .lp-sc9 {
+    padding-block: 80px 90px;
+    padding-inline: 81px;
+  }
+
+  .lp-sc2--sub-sect>figure {
+    align-self: center
+  }
+
+  .hero-sub-section {
+    padding-inline: 81px;
+  }
+
+  .maid-profile__slider {
+    padding-inline: 81px;
+  }
+
+  .news-updates__card>figure {
+    flex-basis: unset;
+    ;
+    width: 100%;
+    max-height: 82px;
+    align-self: flex-start;
+  }
+
+  .news-updates__card>figure>img {
+    height: 82px;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+  .news-updates__card>section {
+    flex-basis: unset;
+    ;
+    width: 100%;
+  }
+
+  .updates--card__txt header h4 {
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 0px;
+  }
+
+  .updates--card__txt>p {
+    padding-block: 10px 2px;
+  }
+
+  .be-notified {
+    padding-block: 80px 90px;
+    max-width: 100%;
+    padding-inline: 81px;
+  }
+
+  .lp-form.notify-form {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .swing-ring {
+    width: 165px;
+    height: 187px;
+  }
+
+  .be-notified>p {
+    margin-block: 16px 26px;
+    font-size: 18px;
+    color: #F6F6F6;
+  }
+
+  .footer-links-section .link-groups {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 51px;
+  }
+
+  .footer-links-section {
+    padding-block: 80px 90px;
+  }
+
+  .footer-right-reserved {
+    display: block;
+  }
+
+  .click-to-call {
+    color: #012132;
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 48px;
+  }
+
+  .news-updates__card {
+    flex-direction: column;
+  }
+
+  .news-updates {
+    justify-content: space-between;
+  }
+
+  /* About */
+  .about-hero,
+  .aboutCards {
+    padding-inline: 80px
+  }
+
+  .about-img-box {
+    height: unset;
+    padding-block: 2rem;
+  }
+
+  /* Modal */
+
+
+  #registration-modal .modal-dialog {
+    padding: 2rem;
+  }
+
+  .packages-hero .ul-rit-img {
+    margin-top: 0px;
+  }
+
+  .reg-modal-body__rit:has(.login-form) {
+    padding-inline: 56px;
+  }
+
+  :is(#registration-modal, #login-modal) .modal-dialog {
+    margin-inline: auto;
+  }
+
+
+
+}
+
+@media screen and (max-width:1100px) {
+  .resourcesCards .about-img-box {
+    background-color: unset;
+    border: none;
+  }
+
+  .maid-profile__pic {
+    max-width: 38%;
+  }
+
+  .maid-profile__details {
+    max-width: 62%;
+  }
+
+}
+
+@media screen and (max-width: 1050px) {
+  .footer-links-section {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+
+  .footer-links__contact__social {
+    display: flex;
+  }
+
+  .footer-links__contact__social>* {
+    width: 50%;
+    margin-top: 0px;
+  }
+
+  .reg-modal-body__lft {
+    display: none;
+  }
+
+  .reg-modal-body__rit {
+    max-width: 100%;
+  }
+
+  .login-modal-body__lft .modal-header {
+    display: flex;
+  }
+
+  .registration-form.login-form {
+    padding-block: 80px 40px;
+  }
+
+  .navbar-links li:hover .nav-dropdowns {
+    visibility: hidden;
+  }
+
+}
+
+
+@media screen and (max-width: 1050px) {
+  .navbar-links {
+    flex-direction: column;
+    position: fixed;
+    inset: 0px;
+    background: #A07FB5;
+    margin: auto;
+    align-items: center;
+    max-width: 100%;
+    transform: translateY(-100vh);
+    z-index: 9;
+    justify-content: unset;
+    transition: transform 0.5s cubic-bezier(0.14, 0.44, 0, 1.48);
+    will-change: transform;
+    transform-origin: top right;
+    scale: 0;
+    visibility: hidden;
+  }
+
+  .navbar-reg-res {
+    display: inline-flex;
+    margin-left: auto;
+  }
+
+  .navbar-logo {
+    max-width: 90%;
+  }
+
+  #nav-icon {
+    display: block;
+  }
+
+  section.maids-hero {
+    background-size: 12%;
+  }
+
+  .maids-hero>.container {
+    max-width: 100%;
+  }
+
+  .maids-hero .aboutus-paras {
+    max-width: 100%;
+  }
+
+  /* Responisve Navbar Major Settings */
+  .navbar-links li {
+    display: flex;
+    max-width: 230px;
+    width: 100%;
+    padding-block: 20px 12px;
+    gap: 14px;
+    border-bottom: 1px solid rgb(240 218 255);
+  }
+
+  .navbar-links li>img {
+    margin-right: 14px;
+    display: unset;
+  }
+
+  .navbar-links li :is(a, a:hover) {
+    color: #ffffff;
+  }
+
+  .navbar-extras {
+    display: inherit;
+  }
+
+  .navbar-links li .navbar-reg {
+    padding: unset;
+    background-color: unset;
+  }
+
+  /* .navbar-links::before{content: '';display: inline-flex;width: 30%;background-color: black;} */
+
+  .active-nav-item {
+    color: #870085 !important
+  }
+}
+
+@media screen and (max-width:992px) {
+
+  /* Maids Page */
+  .col-md-3.maids-19 {
+    width: 100%;
+    padding-inline: 20px;
+  }
+
+  .col-md-9.maids-81 {
+    width: 100%;
+  }
+
+  .col-md-3.maids-19,
+  #advance-filters {
+    height: 0px;
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transform: scale(0);
+    transition: transform 500ms cubic-bezier(0.22, 0.98, 0.42, 1.64);
+  }
+
+  .customer-reviews {
+    padding-block: 65px;
+  }
+
+  .customer-reviews .testimony-card {
+    padding: 20px 30px 35px 30px;
+  }
+
+  .search-and-filter {
+    display: flex;
+  }
+
+  /* For Specifically Maids Page */
+  .maids {
+    padding-inline: 20px;
+    padding-block: 42px;
+  }
+
+  /* Homepage Maid Profiles */
+  .lp-sc3__maid-profile-groups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .maid-profile__pic {
+    max-width: 33%;
+  }
+
+  .maid-profile__details {
+    max-width: 67%;
+  }
+
+  .maids--profiles-group {
+    margin-top: 2rem;
+  }
+
+  section.maids-hero,
+  .resources-hero,
+  .about-hero,
+  .contact-hero,
+  .packages-hero,
+  .customer-reviews,
+  .reviews-hero,
+  .aboutCards,
+  .faqs-hero {
+    padding-inline: 20px;
+  }
+
+
+  .pkg-card-headers {
+    padding-bottom: 22px;
+  }
+
+  .seconday-cards__li {
+    margin-top: 28px;
+  }
+
+  /* Blogs */
+  .blog-post-heading {
+    margin-block: 15px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .blog-post {
+    padding: 30px 30px 44px;
+  }
+
+  .blogs {
+    padding-block: 45px;
+    padding-inline: 20px;
+  }
+
+  .blogs .gy-575 {
+    --bs-gutter-y: 2rem;
+  }
+
+  .visa-cost .container {
+    padding-inline: 20px;
+  }
+
+  .sponsorship-table-wrapper,
+  .sponsorship-table-footer.second {
+    width: 1200px;
+  }
+
+}
+
+@media screen and (max-width:850px) {
+  .contactCards {
+    flex-wrap: wrap;
+  }
+
+  .contact-card {
+    max-width: 48%;
+  }
+
+  .contact-card:nth-of-type(3) {
+    max-width: 100%;
+  }
+
+  .about-img-box {
+    border: unset;
+    background: unset;
+  }
+
+  .maid-profile__pic .play-icon {
+    right: 8px;
+  }
+
+  .maid-profile__pic figcaption,
+  .maid-profile__pic .heart-icon {
+    left: 10px;
+  }
+
+
+
+
+  /* For Specifically Maids Page */
+
+  .maid-profile__details--wrapper {
+    padding: 11px 15px 5.4px 12px;
+  }
+
+  .maidDemographs :is(p, span, div) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .maidDemographs {
+    align-items: unset;
+  }
+
+  .maid-profile__details .maidName {
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+
+  .maid-profile__nums {
+    padding-block: 19px 8px;
+  }
+
+  .maid-profile__details {
+    max-width: 65.2%;
+  }
+
+  .maid-profile__pic {
+    max-width: 34.8%;
+  }
+
+  .maid-profile-modal .maid-profile__nums {
+    padding-block: 30.5px 14px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .hero-sub-section {
+    padding-inline: 20px;
+  }
+
+  .hero-headings-g h4 {
+    margin-block: 30px 37px;
+    font-size: 14pt;
+    line-height: 22px;
+  }
+
+  .hero-headings-g h1 {
+    font-size: 32pt;
+  }
+
+  .lp-user-selections {
+    margin: 0 0 39px 0;
+  }
+
+  .hero-searchMaids {
+    margin-bottom: 46px;
+    padding: 12px 16px;
+    font-size: 14pt;
+    line-height: 16px;
+    max-width: 200pt;
+  }
+
+  .navbar {
+    padding-block: 45px 16px;
+    padding-inline: 20px;
+  }
+
+  .lp-form .current {
+    font-size: 14pt;
+    color: #545454;
+    line-height: 16px;
+    font-weight: 500;
+  }
+
+  .lp-form .input-group input::placeholder {
+    color: #545454;
+    font-size: 14pt;
+    line-height: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+
+  .lp-form .input-group input,
+  .lp-form .input-group input::placeholder {
+    color: #545454;
+    font-size: 14pt;
+    line-height: 16px;
+    font-weight: 500;
+  }
+
+  .lp-form .nice-select {
+    margin-block: 12px;
+  }
+
+
+  .lp-form .input-group button {
+    display: none;
+  }
+
+  .lp-form .nice-select:first-of-type {
+    border-radius: 5pt 0px 0px 5pt;
+  }
+
+  .lp-form :is(.input-group, input) {
+    border-radius: 0 5pt 5pt 0
+  }
+
+  section.lp-sc2 {
+    padding-inline: 20px;
+  }
+
+  .lp-sc2 .section-heading {
+    font-size: 20pt;
+    line-height: 30px;
+    margin-block: 40px 26px;
+  }
+
+  .lp-sc2--sub-sect {
+    flex-direction: column;
+  }
+
+  .lp-sc2--sub-sect>figure>img {
+    content: url("images/res-simple-3-step-process.png");
+  }
+
+  .lp-sc2--cards {
+    text-align: center;
+  }
+
+  .maid-online a.search-link {
+    margin-inline: auto;
+    max-width: 171pt;
+    padding: 9pt 33pt;
+  }
+
+  header h3.card-header {
+    font-size: 20pt;
+    line-height: 23px;
+    letter-spacing: 0.6pt;
+    color: #242C42;
+    font-weight: 500;
+  }
+
+  :is(.maid-online, .maid-available) p {
+    margin-block: 15px 17px;
+    font-size: 14pt;
+    line-height: 22px;
+    color: #919191;
+    font-weight: 500;
+  }
+
+  .maid-available header h3 {
+    font-size: 20pt;
+    color: #242C42;
+    line-height: 22pt;
+  }
+
+  .maid-available,
+  .maid-online {
+    padding-block: 16px 18px;
+    border-radius: 16px;
+  }
+
+  .lp-sc2--sub-sect {
+    margin-bottom: 40px;
+  }
+
+  .lp-sc3 .section-heading {
+    padding-block: 40pt 24pt;
+    font-size: 20px;
+  }
+
+  .lp-sc3>header+p {
+    font-size: 16pt;
+    line-height: 22px;
+    margin-bottom: 27px;
+    padding-inline: 20px;
+  }
+
+  .maid-profile__slider {
+    padding-inline: 20px;
+  }
+
+  .p-sliders__filters {
+    padding: 9px 11px 9px 21px;
+    font-size: 12pt;
+    line-height: 24px;
+    border-radius: 5pt;
+    font-weight: 500;
+  }
+
+  .p-sliders__filters svg {
+    font-weight: 500;
+    vertical-align: unset;
+  }
+
+  .profile__custom--filters--group {
+    margin-top: 48px;
+    padding-bottom: 44px;
+  }
+
+  .why-customers-sec__img>img {
+    display: none;
+  }
+
+  .trustee-facts article {
+    max-width: 100%;
+    flex-basis: unset;
+  }
+
+  .lp-sc4 .section--wrapper {
+    padding-inline: 20px;
+  }
+
+  .lp-sc4 header h2 {
+    margin-block: 40px 26px;
+    font-size: 20pt;
+  }
+
+  .reasons__why-cards {
+    margin-left: 0px;
+  }
+
+  .why-card p {
+    font-weight: 500;
+  }
+
+  .lp-sc4__reasons {
+    margin-bottom: 44px;
+  }
+
+  .trustee-facts {
+    flex-wrap: wrap;
+    row-gap: 37px;
+    justify-content: center;
+  }
+
+  .trustee-facts header>h3 {
+    font-size: 35pt;
+  }
+
+  .trustee-facts header>h5 {
+    font-size: 16pt;
+    margin-block: 9px 15px;
+  }
+
+  .counter-txt {
+    font-size: 14pt;
+    line-height: 18pt;
+  }
+
+  .lp-sc5 {
+    padding-inline: 20px;
+    padding-block: 40px;
+  }
+
+  .lp-sc5 header h2.section-heading {
+    font-size: 20pt;
+    line-height: 23pt;
+  }
+
+  .lp-sc5>header+p {
+    margin-block: 26px 36px;
+  }
+
+  .lp-sc6 {
+    margin-block: 44px;
+    padding-inline: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .maid-on-job {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .get-the-job header h2.section-heading {
+    font-size: 20pt;
+    line-height: 23px;
+  }
+
+  .get-the-job {
+    width: 100%;
+    text-align: center;
+  }
+
+  .get-the-job p {
+    margin-block: 9pt 30pt;
+    font-weight: 500;
+  }
+
+  .get-the-job a {
+    margin-inline: auto;
+    font-size: 14pt;
+    padding: 12px 22px;
+  }
+
+  .lp-sc7 {
+    padding-inline: 20px;
+    padding-block: 40px;
+  }
+
+  .lp-sc7>header {
+    margin-bottom: 20px;
+  }
+
+  :is(.lp-sc7, .lp-sc8) header h2.section-heading {
+    font-size: 20pt;
+    line-height: 23px;
+  }
+
+  .faq-links a {
+    font-size: 13pt;
+    line-height: 16px;
+    font-weight: 500;
+  }
+
+  .faq-links a:first-of-type {
+    width: 20%;
+  }
+
+  .faq-links a:last-of-type {
+    width: 80%;
+  }
+
+  .lp-sc8 {
+    padding-inline: 20px;
+    padding-block: 40px 44px;
+  }
+
+  .faq-links {
+    margin-block: 30px;
+  }
+
+  .glide-testimonies .glide__slide {
+    justify-content: center;
+  }
+
+  .testimony-card::before {
+    width: 16px;
+    height: 15px;
+    border-left: 5px solid #242C42;
+    border-right: 5px solid #242C42;
+    top: -8px;
+  }
+
+  .faq-container {
+    padding: 20px;
+  }
+
+  .faq-container .accordion-header button {
+    font-size: 14pt;
+    line-height: 25px;
+    font-weight: 500;
+  }
+
+  .lp-sc9 {
+    padding-block: 40px 47px;
+    padding-inline: 20px;
+  }
+
+  .lp-sc9>header {
+    margin-bottom: 36px;
+  }
+
+  .lp-sc9>header h2.section-heading {
+    font-size: 20pt;
+    margin-bottom: 0px;
+  }
+
+  .news-updates__card {
+    flex-direction: row;
+  }
+
+  .news-updates {
+    flex-direction: column;
+  }
+
+  .news-updates__card>figure>.h-100 {
+    max-height: 98px;
+    height: 98px;
+  }
+
+  .lp-sc9>header>a {
+    font-size: 20px;
+  }
+
+  .lp-form.notify-form .input-group input {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .be-notified {
+    padding-block: 47px 50px;
+    padding-inline: 20px;
+  }
+
+  .swing-ring {
+    width: 79px;
+    height: 90px;
+  }
+
+  .notify-form .nice-select span.current {
+    color: white;
+    font-weight: 400;
+  }
+
+  .lp-form {
+    border-radius: 5px;
+  }
+
+  .notify-form :is(.input-group input, .input-group input::placeholder) {
+    color: white;
+  }
+
+  .be-notified header h2.section-heading {
+    font-size: 20pt;
+    line-height: 20px;
+  }
+
+  .be-notified>p {
+    margin-block: 14px;
+  }
+
+  .lp-form.notify-form .input-group :where(input, input::placeholder) {
+    color: white;
+  }
+
+  .footer-links-section {
+    padding-inline: 20px;
+  }
+
+  .click-to-call {
+    font-size: 24pt;
+  }
+
+  .footer-banking {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .pay-securely {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    font-size: 13pt;
+    color: #919191;
+    font-weight: 500;
+  }
+
+
+
+
+  .maid-profile.d-flex {
+    display: block !important;
+  }
+
+  .maid-profile.d-flex> :is(figure, article) {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .maid-profile>figure {
+    width: 100%;
+    max-width: 32%;
+  }
+
+  .maid-profile>article {
+    max-width: 67.2%;
+    width: 100%;
+  }
+
+  .primary-cards__li li,
+  .seconday-cards__li li {
+    margin-bottom: 18px;
+  }
+
+  /* Contacts */
+  .contact-card {
+    max-width: 100%;
+  }
+
+  .about-img-box {
+    height: unset;
+  }
+
+  .about-img-box>img {
+    height: 100px;
+  }
+
+  .contact-hero,
+  .about-hero,
+  .aboutCards,
+  .resourcesCards>section,
+  .customer-reviews {
+    padding-inline: 20px;
+  }
+
+  /* About US */
+  .aboutus-headers {
+    font-size: 24px;
+    line-height: 30px;
+    color: #242C42;
+    margin-bottom: 14px;
+  }
+
+  .aboutus-news-head,
+  .cr-sec .aboutus-news-head {
+    font-size: 30px;
+  }
+
+  .aboutus-news {
+    padding-block: 40px;
+  }
+
+  .about-news-txt>br {
+    display: none;
+  }
+
+  /* Resources */
+  .resource-img-box {
+    height: auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .about-img-box.resource-img-box>img {
+    height: auto;
+  }
+
+  .about-img-box.resource-img-box {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    max-width: 50%;
+    margin-inline: auto;
+  }
+
+  /* Modal */
+  .field-grps .form-control {
+    padding: 16px 18px;
+  }
+
+  .registration-form {
+    padding-block: 25px 20px;
+  }
+
+  .registration-form h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .login-here {
+    margin-top: 30px;
+  }
+
+  .maids {
+    padding-block: 16px 40px;
+  }
+
+  /* Packages */
+  .pkg-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pkg-secondary-card,
+  .pkg-primary-card {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .access-pkgs h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .access-pkgs {
+    margin-bottom: 30px;
+  }
+
+  .access-pkgs-wrap {
+    padding-block: 45px;
+  }
+
+  /* Targeting Heros  */
+  .aboutus-headers>span {
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 14px;
+  }
+
+  /* For Specifically Maids Page */
+  .maid-profile__details .maidName {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .maid-profile__details--wrapper {
+    padding: 16px 18px 18px 16px;
+  }
+
+  .maids--profiles-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .maid-profile__nums {
+    padding-inline: 1rem;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
+
+  .maids--profiles-group {
+    margin-top: 2rem;
+  }
+
+  .maids-hero,
+  .resources-hero,
+  .about-hero,
+  .packages-hero,
+  .reviews-hero,
+  .faqs-hero {
+    padding-block: 20px;
+  }
+
+  .maids .p-sliders__filters {
+    font-size: 12px;
+    padding: 12px 9px 9px 14px
+  }
+
+  section.maids-hero,
+  .resources-hero,
+  .about-hero,
+  .contact-hero,
+  .packages-hero,
+  .reviews-hero,
+  .faqs-hero {
+    background-position: 90% -1vw;
+    background-size: 20%;
+  }
+
+  .about-hero .aboutus-paras:nth-of-type(2) {
+    transform: translateY(0.5rem);
+  }
+
+  :is(.maids-hero, .about-hero, .packages-hero, .resources-hero, .reviews-hero, .faqs-hero),
+  .aboutus-paras {
+    max-width: 100%;
+  }
+
+  /* Customer Reviews Page  */
+  .gy-575 {
+    --bs-gutter-y: 2.75rem;
+  }
+
+  /* Resources -- Maid Visa Cost */
+
+  .visa-cost {
+    padding-block: 45px;
+  }
+
+  .sponsorship-table--heading {
+    margin-block: 35px 30px;
+    font-size: 24px;
+  }
+
+  .visa-cost-paras {
+    margin-bottom: 1.5rem;
+  }
+
+  .sponsorship-table th {
+    padding-block: 17px;
+  }
+
+  .sponsorship-table td {
+    padding-block: 12px;
+  }
+
+  .table-rights-reserved {
+    padding: 12px;
+  }
+
+  .sponsorship-table-footer.second {
+    padding: 16px 12px 12px;
+  }
+
+  .best-option h3 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .best-option p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  /*  Blog Post */
+  .blog-post-caption {
+    font-size: 2rem;
+    margin-block: 20px 16px;
+  }
+
+  .blog-post-paras {
+    margin-block: 0px;
+  }
+
+  .blog-post-h3s {
+    font-size: 18px;
+    line-height: 30px;
+    margin-block: 10px;
+  }
+
+  .blog-post-pointers {
+    margin-inline-start: 3.5rem;
+  }
+
+  .blog-post-pointers li {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .blog-post-h3s.nanny-care {
+    padding-block: 10px;
+  }
+
+  /* Login Card */
+  .reg-modal-body__rit:has(.login-form) {
+    padding-inline: 2rem;
+  }
+
+  /* Access Packages */
+  .txt-blocks-anywhere {
+    padding: 1.8rem;
+  }
+
+  .txt-blocks-anywhere h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .seo-txt-block {
+    margin-block: 50px 30px;
+  }
+
+}
+
+@media screen and (max-width:575px) {
+  .contact-form {
+    margin-bottom: 3rem;
+  }
+
+  .contact-form .form-control {
+    padding: 12px;
+  }
+
+  .contact-form button[type="submit"] {
+    padding: 10px 40px;
+  }
+
+  .contact-article h2 {
+    font-size: 20px;
+    line-height: 24pt;
+    margin-bottom: 20px;
+  }
+
+  .about-img-box {
+    max-width: 100%;
+  }
+
+  .flex-reversed--responsive {
+    flex-flow: column-reverse;
+  }
+
+  .field-grps {
+    flex-direction: column;
+  }
+
+  .reg-modal-body__rit {
+    padding-inline: 2rem;
+  }
+
+  .registration-form {
+    padding-block: 0px 20px;
+  }
+
+  .reg-modal-body__rit .modal-header .btn-close {
+    font-size: 26px;
+  }
+
+  .reg-form-submit {
+    max-width: 100%;
+    width: 100%;
+    padding: 19px 0px;
+  }
+
+  #nav-icon {
+    width: 28px;
+  }
+
+  #nav-icon span {
+    height: 2px;
+  }
+
+  .top-logo>img {
+    height: 27px;
+  }
+
+  .registration-form h2 {
+    font-size: 24px;
+  }
+
+  .news-img-box {
+    margin-block: 20px;
+  }
+
+  /* Maid Profile Card */
+  /* .maidSpecialities p:nth-of-type(n+4){display: none;} */
+  .maid-profile__pic :is(.play-icon, figcaption) {
+    display: none;
+  }
+
+  .footer-banking {
+    padding-inline: 20px;
+  }
+
+  .pay-securely+span {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+    padding-block: 32px 16px;
+  }
+
+  .resourcesCards .container {
+    padding-block: 40px;
+  }
+
+  /* .aboutus-headers{font-size: 20px;} */
+  .all-faqs {
+    padding-block: 45px 20px;
+  }
+
+  .faq-headers {
+    margin-bottom: 20px;
+  }
+
+  .all-faqs .col-12 {
+    margin-bottom: 40px;
+  }
+
+  .faq-container {
+    padding: 12px;
+  }
+
+  .accordion-body {
+    padding-block: 0px 25px;
+  }
+
+  p.forgot-pswrd {
+    margin-block: 20px 50px;
+  }
+
+  #nav-icon span:nth-child(2) {
+    top: 10px;
+  }
+
+  #nav-icon span:nth-child(3) {
+    top: 20px;
+  }
+
+  .registration-form.login-form {
+    padding-block: 40px;
+  }
+
+  .txt-blocks-anywhere p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .txt-blocks-anywhere h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+
+
+}
+
+@media screen and (max-width:500px) {
+
+
+  .maid-profile__details--wrapper {
+    padding: 11px 15px 5.4px 12px;
+  }
+
+  .maidDemographs :is(p, span, div) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .maidDemographs {
+    align-items: unset;
+  }
+
+  .maid-profile__details .maidName {
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+
+  .maid-profile__nums {
+    padding-block: 19px 8px;
+  }
+
+  .maid-profile__details {
+    max-width: 65.2%;
+  }
+
+  .maid-profile__pic {
+    max-width: 34.8%;
+  }
+
+  .maids {
+    padding-inline: 12px;
+  }
+}
+
+.profile-modal--cover>img:first-of-type {
+  height: 50%;
+}
+
+
+
+@media screen and (max-width:390px) {
+
+  .maid-profile__view-details,
+  .maid-profile__hire-now {
+    padding-block: 10px;
+  }
+
+  .maidSpecialities {
+    margin-block: 6px 5.5px;
+  }
+
+  .maid-profile__details--wrapper {
+    padding: 11px 15px 5.4px 12px;
+  }
+
+  .maidDemographs :is(p, span, div) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .maidDemographs {
+    align-items: unset;
+  }
+
+  .maid-profile__details .maidName {
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+
+  .maid-profile__nums {
+    padding-block: 19px 8px;
+  }
+
+  .maid-profile__details {
+    max-width: 65.2%;
+  }
+
+  .maid-profile__pic {
+    max-width: 34.8%;
+  }
+
+  .maidSpecialities p {
+    font-size: 10px;
+    padding: 6px;
+  }
+
+  /* Registration Modal */
+  #registration-modal .modal-dialog {
+    margin: 0%;
+    padding: 0.5rem;
+  }
+
+}
+
+@media screen and (max-width:350px) {
+
+  .maid-profile__view-details,
+  .maid-profile__hire-now {
+    padding-block: 10px;
+  }
+
+  .maidSpecialities {
+    margin-block: 6px 5.5px;
+  }
+
+  .maid-profile__details--wrapper {
+    padding: 11px 15px 5.4px 12px;
+  }
+
+  .maidDemographs :is(p, span, div) {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .maidDemographs {
+    align-items: unset;
+  }
+
+  .maid-profile__details .maidName {
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+
+  .maid-profile__nums {
+    padding-block: 19px 8px;
+  }
+
+  .maid-profile__details {
+    max-width: 65.2%;
+  }
+
+  .maid-profile__pic {
+    max-width: 34.8%;
+  }
+
+  .maidSpecialities p {
+    font-size: 10px;
+    padding: 6px;
+  }
+
+  .maidSalary p:last-of-type,
+  .maidSalary p:first-of-type {
+    font-size: 12px;
+  }
+
+  .maid-profile__nums>figure>figcaption {
+    font-size: 11px;
+  }
+
+}
+
+
+
+@media screen and (max-width:500px) {
+  .maid-profile>article {
+    max-width: 100%;
+  }
+
+  .maid-profile>figure {
+    display: none !important;
+  }
+
+  .maid-profile__details--wrapper {
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .lp-form {
+    flex-wrap: wrap;
+    border-radius: 5px;
+  }
+
+  .lp-form .nice-select {
+    width: 50%;
+  }
+
+  .lp-form .input-group {
+    border-top: 1px solid #e0e7ee;
+  }
+
+  .lp-form .input-group {
+    padding-block: 12px;
+  }
+
+  .lp-form .current {
+    font-size: 12px;
+  }
+
+  .lp-form .input-group input,
+  .lp-form .input-group input::placeholder {
+    font-size: 12pt;
+  }
+
+  .lp-form :is(.input-group, input) {
+    border-radius: 0 0 5px 5px;
+  }
+
+  .faq-links a {
+    font-size: 10pt;
+  }
+
+  .navbar-reg-res {
+    display: none;
+  }
+
+  .navbar-logo {
+    max-width: 50%;
+  }
+
+  .lp-form .nice-select:nth-of-type(2) {
+    border-right: none;
+  }
+
+  .click-to-call {
+    font-size: 14pt;
+  }
+
+  :is(.contact-us, .social-icons) svg {
+    height: 19pt;
+    width: 19pt;
+  }
+
+
+
+
+
+
+}

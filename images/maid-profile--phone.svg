@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.8" height="23" viewBox="0 0 26.8 23">
+  <g id="phone-icon" transform="translate(-1.6 -3.5)">
+    <g id="Group_5244" data-name="Group 5244">
+      <g id="Group_5241" data-name="Group 5241">
+        <path id="Path_7005" data-name="Path 7005" d="M19.19,26.5H10.7a2.364,2.364,0,0,1-2.36-2.36V5.86A2.364,2.364,0,0,1,10.7,3.5h8.49a2.364,2.364,0,0,1,2.36,2.36V24.14A2.358,2.358,0,0,1,19.19,26.5ZM10.71,4.75A1.125,1.125,0,0,0,9.59,5.87V24.15a1.118,1.118,0,0,0,1.12,1.12H19.2a1.125,1.125,0,0,0,1.12-1.12V5.86A1.118,1.118,0,0,0,19.2,4.74H10.71Z" fill="#a07fb5"/>
+      </g>
+      <g id="Group_5242" data-name="Group 5242">
+        <rect id="Rectangle_2210" data-name="Rectangle 2210" width="2.89" height="1.24" transform="translate(13.5 5.78)" fill="#a07fb5"/>
+      </g>
+      <g id="Group_5243" data-name="Group 5243">
+        <path id="Path_7006" data-name="Path 7006" d="M14.95,24.75a1.22,1.22,0,1,1,1.22-1.22A1.225,1.225,0,0,1,14.95,24.75Zm0-1.62a.39.39,0,0,0-.39.39.406.406,0,0,0,.39.4.4.4,0,0,0,.4-.4A.393.393,0,0,0,14.95,23.13Z" fill="#a07fb5"/>
+      </g>
+    </g>
+    <g id="Group_5247" data-name="Group 5247">
+      <g id="Group_5245" data-name="Group 5245">
+        <path id="Path_7007" data-name="Path 7007" d="M24.72,19.6l-.59-.59a4.515,4.515,0,0,0,0-6.38l.59-.59a5.335,5.335,0,0,1,0,7.56Z" fill="#a07fb5"/>
+      </g>
+      <g id="Group_5246" data-name="Group 5246">
+        <path id="Path_7008" data-name="Path 7008" d="M26.09,21.4l-.59-.59a7.074,7.074,0,0,0,0-10l.59-.59A7.919,7.919,0,0,1,26.09,21.4Z" fill="#a07fb5"/>
+      </g>
+    </g>
+    <g id="Group_5250" data-name="Group 5250">
+      <g id="Group_5248" data-name="Group 5248">
+        <path id="Path_7009" data-name="Path 7009" d="M5.18,19.6a5.335,5.335,0,0,1,0-7.56l.59.59a4.515,4.515,0,0,0,0,6.38Z" fill="#a07fb5"/>
+      </g>
+      <g id="Group_5249" data-name="Group 5249">
+        <path id="Path_7010" data-name="Path 7010" d="M3.91,21.4a7.907,7.907,0,0,1,0-11.17l.59.59a7.074,7.074,0,0,0,0,10Z" fill="#a07fb5"/>
+      </g>
+    </g>
+  </g>
+</svg>

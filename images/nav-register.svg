@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.541" height="24.484" viewBox="0 0 27.541 24.484">
+  <g id="Group_6021" data-name="Group 6021" transform="translate(-169.5 -424.604)" opacity="0.5">
+    <g id="Icon_feather-user" data-name="Icon feather-user" transform="translate(164 420.604)">
+      <path id="Path_7189" data-name="Path 7189" d="M26.875,30.328V27.719A5.219,5.219,0,0,0,21.656,22.5H11.219A5.219,5.219,0,0,0,6,27.719v2.609" transform="translate(0 -2.344)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_7190" data-name="Path 7190" d="M22.438,9.719A5.219,5.219,0,1,1,17.219,4.5,5.219,5.219,0,0,1,22.438,9.719Z" transform="translate(-0.781)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <path id="Icon_ionic-md-star-outline" data-name="Icon ionic-md-star-outline" d="M12.475,7.645l-3.12-.268L8.136,4.5,6.917,7.377,3.8,7.645,6.164,9.7l-.709,3.051L8.136,11.13l2.681,1.618L10.108,9.7Z" transform="translate(184.067 425.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>
