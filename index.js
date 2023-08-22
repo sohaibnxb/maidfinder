@@ -210,7 +210,7 @@ class Footer extends HTMLElement{
       <div>
         <article class="footer-links__contact__social">
           <header class="footer-headings">
-            <h3>Contact Us</h3>
+            <h3 class="footer-heading contact-us">Contact Us</h3>
             <section class="contact-us">
               <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
                 <g id="Group_208" data-name="Group 208" transform="translate(-111 -5576.8)">
@@ -237,7 +237,7 @@ class Footer extends HTMLElement{
             </section>
           </header>
 
-          <article class="footer-links-ul">
+          <article class="footer-links-ul p-0">
 
 
 

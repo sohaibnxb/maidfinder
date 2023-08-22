@@ -94,8 +94,30 @@
         <div class="row">
 
           <div class="col-md-3 maids-19" id="advance-search">
-            <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion maids-filters-accordion" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    Salary Range
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <div class="input-group accord-salary-range">
+
+                      <input type="text" class="form-control" placeholder="From">
+                      <input type="text" class="form-control" placeholder="To">
+                      <div class="input-group-postpend">
+                        <button class="input-group-text" id="">Go</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
@@ -120,29 +142,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo">
-                    Salary Range
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingTwo">
-                  <div class="accordion-body">
-                    <div class="input-group accord-salary-range">
-
-                      <input type="text" class="form-control" placeholder="From">
-                      <input type="text" class="form-control" placeholder="To">
-                      <div class="input-group-postpend">
-                        <button class="input-group-text" id="">Go</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </div> -->
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -369,6 +369,7 @@
                   </div>
                 </div>
               </div>
+              <button class="maids-filters-accordion-btn">Search</button>
             </div>
           </div>
           <div class="col-md-9 maids-81">
@@ -491,21 +492,23 @@
                   <figure class="maid-profile__pic position-relative">
                     <img src="images/maid-profile-pic.png" class="maid-pic" alt="Maid Profile Picture">
                     <!-- <img src="images/heart-icon.svg" class="heart-icon position-absolute" alt="Click to Like this Maid Profile"> -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24.847" height="22.822" viewBox="0 0 24.847 22.822" class="heart-icon position-absolute">
-                      <path id="Icon_awesome-heart" data-name="Icon awesome-heart" d="M20.626,3.671A5.928,5.928,0,0,0,12.3,4.3l-.879.943L10.543,4.3a5.928,5.928,0,0,0-8.326-.632,6.864,6.864,0,0,0-.442,9.661l8.633,9.285a1.361,1.361,0,0,0,2.021,0l8.633-9.285a6.859,6.859,0,0,0-.437-9.661Z" transform="translate(1.002 -1.245)" fill="none" stroke="#fff" stroke-width="2" ></path>
-                 
-                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24.847" height="22.822" viewBox="0 0 24.847 22.822"
+                      class="heart-icon position-absolute">
+                      <path id="Icon_awesome-heart" data-name="Icon awesome-heart"
+                        d="M20.626,3.671A5.928,5.928,0,0,0,12.3,4.3l-.879.943L10.543,4.3a5.928,5.928,0,0,0-8.326-.632,6.864,6.864,0,0,0-.442,9.661l8.633,9.285a1.361,1.361,0,0,0,2.021,0l8.633-9.285a6.859,6.859,0,0,0-.437-9.661Z"
+                        transform="translate(1.002 -1.245)" fill="none" stroke="#fff" stroke-width="2"></path>
+
+
                     </svg>
                     <img src="images/maid-profile-play-btn.svg" class="play-icon position-absolute"
                       alt="Click to Play this maids' intro">
-                    <figcaption class="maid-profile__visa-expiry position-absolute">
-                      Exp. 03-04Y
-                    </figcaption>
                   </figure>
                   <article class="maid-profile__details">
                     <div class="maid-profile__details--wrapper">
-                      <h5 class="maidName">SABINA T</h5>
-
+                      <div class="d-flex justify-content-between">
+                        <h5 class="maidName">SABINA T</h5>
+                        <p class="maidJob">Full Time</p>
+                      </div>
                       <div class="maidDemographs ">
                         <div class="align-self-normal">
                           <img src="images/location-icon.svg" alt="Maid Location" class="maid-loc-icon">
@@ -538,7 +541,8 @@
                       </div>
                     </div>
                     <article class="maid-Profile--action-btns d-flex">
-                      <a href="#"  type="button" class=" maid-profile__view-details d-block " data-bs-toggle="modal" data-bs-target="#profileViewDetails">View Details</a>
+                      <a href="#" type="button" class=" maid-profile__view-details d-block " data-bs-toggle="modal"
+                        data-bs-target="#profileViewDetails">View Details</a>
                       <a href="#" class="maid-profile__hire-now d-block">Hire Now</a>
                     </article>
                   </article>
@@ -563,78 +567,13 @@
                       alt="Click to Like this Maid Profile">
                     <img src="images/maid-profile-play-btn.svg" class="play-icon position-absolute"
                       alt="Click to Play this maids' intro">
-                    <figcaption class="maid-profile__visa-expiry position-absolute">
-                      Exp. 03-04Y
-                    </figcaption>
                   </figure>
                   <article class="maid-profile__details">
                     <div class="maid-profile__details--wrapper">
-                      <h5 class="maidName">SABINA T</h5>
-
-                      <div class="maidDemographs ">
-                        <div class="align-self-normal">
-                          <img src="images/location-icon.svg" alt="Maid Location" class="maid-loc-icon">
-                        </div>
-                        <div class="d-flex flex-wrap">
-                          <p class="maidLoc">
-                            <span>Dubai,</span> <span>UAE</span>
-                          </p>
-                          <span class="maid-profile-dash">-</span>
-                          <p class="maidNational">
-                            <span>Natl.</span> <span>Nepali</span>
-                          </p>
-                          <span class="maid-profile-dash">-</span>
-                          <p class="maid-profile__visa-status">
-                            <span>Visa Status:</span> <span>Visit</span>
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-between">
+                        <h5 class="maidName">SABINA T</h5>
+                        <p class="maidJob">Full Time</p>
                       </div>
-
-                      <div class="maidSpecialities d-flex">
-                        <p>Cleaning</p>
-                        <p>Washing</p>
-                        <p>Cooking</p>
-                        <p>Laundry</p>
-                        <p class="maidSpecialities__extras">+2</p>
-                      </div>
-                      <div class="maidSalary d-flex justify-content-between">
-                        <p>Expected Salary</p>
-                        <p>2k-25k /Dhs</p>
-                      </div>
-                    </div>
-                    <article class="maid-Profile--action-btns d-flex">
-                      <a href="#" class="maid-profile__view-details d-block">View Details</a>
-                      <a href="#" class="maid-profile__hire-now d-block">Hire Now</a>
-                    </article>
-                  </article>
-
-                </div>
-                <section class="maid-profile__nums  d-flex w-100 justify-content-center">
-                  <figure class="d-flex">
-                    <img src="images/maid-profile--phone.svg" alt="Maid Phone Number">
-                    <figcaption>Show Phone No</figcaption>
-                  </figure>
-                  <figure class="d-flex">
-                    <img src="images/maid-profile--whatsapp.svg" alt="Maid Whatsapp Number">
-                    <figcaption>Show Phone No</figcaption>
-                  </figure>
-                </section>
-              </article>
-              <article class="maid-profile position-relative ">
-                <div class="maid-profile--card-upper">
-                  <figure class="maid-profile__pic position-relative">
-                    <img src="images/maid-profile-pic.png" class="maid-pic" alt="Maid Profile Picture">
-                    <img src="images/heart-icon.svg" class="heart-icon position-absolute"
-                      alt="Click to Like this Maid Profile">
-                    <img src="images/maid-profile-play-btn.svg" class="play-icon position-absolute"
-                      alt="Click to Play this maids' intro">
-                    <figcaption class="maid-profile__visa-expiry position-absolute">
-                      Exp. 03-04Y
-                    </figcaption>
-                  </figure>
-                  <article class="maid-profile__details">
-                    <div class="maid-profile__details--wrapper">
-                      <h5 class="maidName">SABINA T</h5>
 
                       <div class="maidDemographs ">
                         <div class="align-self-normal">
@@ -693,13 +632,78 @@
                       alt="Click to Like this Maid Profile">
                     <img src="images/maid-profile-play-btn.svg" class="play-icon position-absolute"
                       alt="Click to Play this maids' intro">
-                    <figcaption class="maid-profile__visa-expiry position-absolute">
-                      Exp. 03-04Y
-                    </figcaption>
                   </figure>
                   <article class="maid-profile__details">
                     <div class="maid-profile__details--wrapper">
-                      <h5 class="maidName">SABINA T</h5>
+                      <div class="d-flex justify-content-between">
+                        <h5 class="maidName">SABINA T</h5>
+                        <p class="maidJob">Full Time</p>
+                      </div>
+
+                      <div class="maidDemographs ">
+                        <div class="align-self-normal">
+                          <img src="images/location-icon.svg" alt="Maid Location" class="maid-loc-icon">
+                        </div>
+                        <div class="d-flex flex-wrap">
+                          <p class="maidLoc">
+                            <span>Dubai,</span> <span>UAE</span>
+                          </p>
+                          <span class="maid-profile-dash">-</span>
+                          <p class="maidNational">
+                            <span>Natl.</span> <span>Nepali</span>
+                          </p>
+                          <span class="maid-profile-dash">-</span>
+                          <p class="maid-profile__visa-status">
+                            <span>Visa Status:</span> <span>Visit</span>
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="maidSpecialities d-flex">
+                        <p>Cleaning</p>
+                        <p>Washing</p>
+                        <p>Cooking</p>
+                        <p>Laundry</p>
+                        <p class="maidSpecialities__extras">+2</p>
+                      </div>
+                      <div class="maidSalary d-flex justify-content-between">
+                        <p>Expected Salary</p>
+                        <p>2k-25k /Dhs</p>
+                      </div>
+                    </div>
+                    <article class="maid-Profile--action-btns d-flex">
+                      <a href="#" class="maid-profile__view-details d-block">View Details</a>
+                      <a href="#" class="maid-profile__hire-now d-block">Hire Now</a>
+                    </article>
+                  </article>
+
+                </div>
+                <section class="maid-profile__nums  d-flex w-100 justify-content-center">
+                  <figure class="d-flex">
+                    <img src="images/maid-profile--phone.svg" alt="Maid Phone Number">
+                    <figcaption>Show Phone No</figcaption>
+                  </figure>
+                  <figure class="d-flex">
+                    <img src="images/maid-profile--whatsapp.svg" alt="Maid Whatsapp Number">
+                    <figcaption>Show Phone No</figcaption>
+                  </figure>
+                </section>
+              </article>
+              <article class="maid-profile position-relative ">
+                <div class="maid-profile--card-upper">
+                  <figure class="maid-profile__pic position-relative">
+                    <img src="images/maid-profile-pic.png" class="maid-pic" alt="Maid Profile Picture">
+                    <img src="images/heart-icon.svg" class="heart-icon position-absolute"
+                      alt="Click to Like this Maid Profile">
+                    <img src="images/maid-profile-play-btn.svg" class="play-icon position-absolute"
+                      alt="Click to Play this maids' intro">
+                  </figure>
+                  <article class="maid-profile__details">
+                    <div class="maid-profile__details--wrapper">
+                      <div class="d-flex justify-content-between">
+                        <h5 class="maidName">SABINA T</h5>
+                        <p class="maidJob">Full Time</p>
+                      </div>
 
                       <div class="maidDemographs ">
                         <div class="align-self-normal">
@@ -797,7 +801,10 @@
 
               <div class="cover-adjacent-details">
                 <div class="d-flex justify-content-between">
-                  <h5 class="maidName">SABINA T</h5>
+                  <div class="d-flex justify-content-between">
+                    <h5 class="maidName">SABINA T</h5>
+                    <p class="maidJob">Full Time</p>
+                  </div>
                   <p class="maid-availability">Full Time</p>
                 </div>
                 <div class="maidDemographs ">
@@ -854,8 +861,8 @@
 
             <section class="profile-modal-details">
               <div class="profile-modal-details--tabs d-flex">
-                <button class="tablinks  about-me active" onclick="openInfo(event, 'About')"> <img src="images/about-me-icon.png"
-                    alt="About this maid">About Me</button>
+                <button class="tablinks  about-me active" onclick="openInfo(event, 'About')"> <img
+                    src="images/about-me-icon.png" alt="About this maid">About Me</button>
                 <button class="tablinks my-history " onclick="openInfo(event, 'History')"><img
                     src="images/employment-history-icon.png" alt="Employment History of this maid">Employment
                   History</button>
@@ -882,7 +889,7 @@
                       <div><span class="txt" id="employer_id">Employer 02</span>
                         <div class="employment-history-btns d-flex justify-content-center text-center">
                           <button class="previous employ-history-btns" id="previous">
-                            < </button><button class="next employ-history-btns active" id="next">></button>
+                          </button><button class="next employ-history-btns active" id="next">></button>
                         </div>
                       </div>
                     </div>

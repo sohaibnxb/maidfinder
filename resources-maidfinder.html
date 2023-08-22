@@ -61,8 +61,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 resources-hero-txt">
-            <h2 class="text-white mb-2 aboutus-headers" ><span>Resources</span>About Hiring A Maid</h2>
-            <p class="text-white  aboutus-paras" data-state="truncated" id="maids-hero-para">In this section, we go over key decisions to take on your
+            <h2 class="text-white mb-2 aboutus-headers">Resources <span>About Hiring A Maid</span></h2>
+            <p class="text-white  aboutus-paras" data-state="truncated" id="maids-hero-para">In this section, we go over
+              key decisions to take on your
               journey to identify what kind of housemaid you require for your home and how to go about
               hire a maid. We hope this information will demystify the process and help you make the right
               decision for your family.
@@ -92,8 +93,8 @@
 
       <section class="bg-gray">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-9  align-self-center">
+          <div class="row justify-content-between">
+            <div class="col-lg-7 col-md-9  align-self-center">
               <h3 class="aboutus-headers">Full-Time Or Part-Time ?</h3>
               <p class="aboutus-paras">Consider whether you want someone part-time maid or full-time,
                 live-in or live out. Some families feel more comfortable having privacy and go for the
@@ -116,13 +117,13 @@
       <section>
 
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-between">
             <div class="col-lg-4 col-md-3  ">
               <div class="about-img-box resource-img-box" data-aos="fade-right"><img
                   src="images/resources-reliable-workers.png" alt="Find Reliable, Qualified Maids" class="w-100">
               </div>
             </div>
-            <div class="col-lg-8 col-md-9 align-self-center" data-aos="zoom-in">
+            <div class="col-lg-7 col-md-9 align-self-center" data-aos="zoom-in">
               <h3 class="aboutus-headers">Find Reliable, Qualified Workers</h3>
               <p class="aboutus-paras">With Maid Finder, you can be certain that the worker you hire will
                 be qualified, experienced and reliable. The team conduct pre-approval checks, personal
@@ -136,8 +137,8 @@
       </section>
       <section class="bg-gray">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-9 align-self-center" data-aos="zoom-in">
+          <div class="row justify-content-between">
+            <div class="col-lg-7 col-md-9 align-self-center" data-aos="zoom-in">
               <h3 class="aboutus-headers">For Full Time, Live In Or Live Out ?</h3>
               <p class="aboutus-paras">The full time live-in maid option is the most common in Dubai.
                 Having said that full-time live-out options do exist yet with special conditions. You
@@ -162,14 +163,14 @@
       <section>
 
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-between">
             <div class="col-lg-4 col-md-3  align-self-center">
               <div class="about-img-box resource-img-box" data-aos="fade-right"><img
                   src="images/resources-hring-through-maid-agence.png" alt="Hiring Through Maid Agency (Maid Finder) Versus Tadbeer Service
                                     Centers" class="w-100">
               </div>
             </div>
-            <div class="col-lg-8 col-md-9 align-self-center" data-aos="zoom-in">
+            <div class="col-lg-7 col-md-9 align-self-center" data-aos="zoom-in">
               <h3 class="aboutus-headers">Hiring Through Maid Agency (Maid Finder) Versus Tadbeer Service
                 Centers</h3>
               <p class="aboutus-paras">Decide whether you want to find a housemaid</p>
@@ -199,8 +200,8 @@
 
       <section class="bg-gray">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-9  align-self-center" data-aos="zoom-in">
+          <div class="row justify-content-between">
+            <div class="col-lg-7 col-md-9  align-self-center" data-aos="zoom-in">
               <h3 class="aboutus-headers">Maid Finder In Affiliation With Tadbeer Easy Sponsorship
                 Packages (Installment Option)</h3>
               <p class="aboutus-paras">Once you’ve found the perfect housemaid through your own search on
@@ -228,7 +229,8 @@
             <div class="col-md-12">
               <p class="aboutus-paras">For a detailed cost comparison between hiring directly versus
                 through an agency or Tadbeer service center visit our Cost Comparison section </p>
-              <p class="aboutus-paras"> For further information, we invite you to visit the FAQ section
+              <p class="aboutus-paras"> For guidance on the interview and selection process visit our Interview and
+                selection tips
               </p>
               <p class="aboutus-paras">For further information, we invite you to visit the FAQ section</p>
             </div>
@@ -236,7 +238,7 @@
         </div>
       </section>
 
-      <section class="bg-gray">
+      <section class="bg-gray copyright-sec">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
@@ -251,11 +253,6 @@
 
 
     </section>
-
-
-
-
-
 
   </section>
 
@@ -273,15 +270,15 @@
     AOS.init();
   </script>
 
-<script>
-  let maids_hero = document.getElementById('maids-hero-para');
-  if (window.matchMedia("(max-width: 767px)").matches) {
-    maids_hero.classList.add('truncated');
-    maids_hero.addEventListener('click', () => {
-      maids_hero.classList.remove('truncated');
-    })
-  }
-</script>
+  <script>
+    let maids_hero = document.getElementById('maids-hero-para');
+    if (window.matchMedia("(max-width: 767px)").matches) {
+      maids_hero.classList.add('truncated');
+      maids_hero.addEventListener('click', () => {
+        maids_hero.classList.remove('truncated');
+      })
+    }
+  </script>
 
 
 </body>
