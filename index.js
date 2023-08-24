@@ -24,29 +24,28 @@ class Header extends HTMLElement {
         <li> <img class="" src = "images/nav-about.svg" />     <a href="about-maidfinder.html" class="nav-item">About</a>
         <ul class="nav-dropdowns"> 
         <li><a href="">About Maid Finder</a></li>
-        <li><a href="">FAQs</a></li>
-        <li><a href="">Customer Reviews</a></li>
-        <li><a>Blog</a></li>
+        <li><a href="faqs-maidfinder.html">FAQs</a></li>
+        <li><a href="customer-reviews-maidfinder.html">Customer Reviews</a></li>
+        <li><a href="blog-maidfinder.html">Blog</a></li>
         </ul>
         </li>
         <li><img class="" src = "images/nav-maids.svg" /><a href="maids-maidfinder.html" class="nav-item">Maids</a></li>
         <li><img class="" src = "images/nav-packages.svg" /><a href="packages-maidfinder.html" class="nav-item">Packages</a>
         <ul class="nav-dropdowns"> 
-        <li><a href="">Access Packages</a></li>
-        <li><a href="">Terms & Conditions</a></li>
+        <li><a href="packages-maidfinder.html">Access Packages</a></li>
+        <li><a href="terms-maidfinder.html">Terms & Conditions</a></li>
         </ul>
         </li>
         <li><img class="" src = "images/nav-resources.svg" /><a href="resources-maidfinder.html" class="nav-item">Resources</a>
         <ul class="nav-dropdowns"> 
         <li><a href="">About Hiring a Maid</a></li>
-        <li><a href="">Interview Questions</a></li>
+        <li><a href="interview-maidfinder.html">Interview Questions</a></li>
         <li><a href="">Sample Questions</a></li>
-        <li><a href="">Maid Visa Cost</a></li>
+        <li><a href="maid-visa-cost-maidfinder.html">Maid Visa Cost</a></li>
         </ul>
         </li>
         <li><img class="" src = "images/nav-contact.svg" /><a href="contact-maidfinder.html" class="nav-item">Contact</a></li>
-        <li><img class="" src = "images/nav-register.svg" /><a href="register-maidfinder.html" class="navbar-reg"   type="button" data-bs-toggle="modal"
-          data-bs-target="#registration-modal">Register</a></li>
+        <li><img class="" src = "images/nav-register.svg" /><a href="register-maidfinder.html" class="navbar-reg" type="button" >Register</a></li>
         <li class="navbar-extras"><img class="" src = "images/nav-login.svg" /><a href="login-maidfinder.html" class="nav-item">Login</a></li>
         <li class="navbar-extras"><img class="" src = "images/nav-logout.svg" /><a href="logout-maidfinder.html" class="nav-item">Logout</a></li>
           

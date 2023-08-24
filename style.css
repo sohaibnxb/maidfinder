@@ -1408,12 +1408,13 @@ a {
 .packages-hero,
 .reviews-hero,
 .faqs-hero,
-.terms-hero {
+.terms-hero,
+.interview-hero {
   background-color: #A07FB5;
   padding-inline: 80px;
 }
 
-:is(.about-hero, .maids-hero, .resources-hero, .packages-hero, .reviews-hero, .customer-reviews, .visa-cost, .faqs-hero, .terms-hero)>.container {
+:is(.about-hero, .maids-hero, .resources-hero, .packages-hero, .reviews-hero, .customer-reviews, .visa-cost, .faqs-hero, .terms-hero, .inrerview-hero)>.container {
   max-width: 1364px;
 }
 
@@ -2323,7 +2324,7 @@ p.forgot-pswrd {
 }
 
 .tag-purple {
-  background-color: #9B59B6;
+  background-color: #A07FB5;
 }
 
 .tag-bright-blue {
@@ -2335,7 +2336,7 @@ p.forgot-pswrd {
   width: 100%;
   border: 1px solid #E2E2E2;
   border-radius: 20px;
-  padding: 40px 40px 58px;
+  padding: 40px 40px 38px;
   background-color: white;
   cursor: pointer;
 }
@@ -2497,7 +2498,8 @@ p.forgot-pswrd {
 
 .blog-post-container {
   margin-top: 90px;
-  padding: 20px;
+  margin-bottom: 40px;
+  padding: 40px;
   background-color: white;
   border: 1px solid #E2E2E2;
   border-radius: 20px;
@@ -2536,7 +2538,7 @@ p.forgot-pswrd {
 }
 
 /* _________________________________________________Visa Cost Resources__________________________________________________ */
-.visa-cost {
+/* .visa-cost {
   padding-block: 80px 90px;
 }
 
@@ -2639,7 +2641,7 @@ p.forgot-pswrd {
 
 .sponsorship-table td.placement-pkg {
   padding-inline: 40px 12px;
-}
+} */
 
 /* _________________________________________________Profile Modal__________________________________________________ */
 
@@ -2665,6 +2667,7 @@ p.forgot-pswrd {
   font-size: 30px;
   padding: 0px;
   margin: 0px;
+  filter: invert(1);
 }
 
 .maid-profile-modal .modal-header {
@@ -3184,4 +3187,381 @@ p.forgot-pswrd {
   /* Adjust the value to align the marker with the text */
   top: 0;
   /* Align the marker vertically with the first line of text */
+}
+
+
+/* Blog Details Page */
+
+.blog-post-view {
+  background-color: #FAF9FA;
+}
+
+/* .blog-post-container {
+  background-color: #ffffff;
+} */
+
+.blog-post-nav {
+  background: #FAF9FA;
+  border: 1px solid #E2E2E2;
+  border-radius: 20px;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.blog-post-nav-text {
+  color: #A07FB5;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 10px;
+}
+
+.blog-post-back-btn {
+  background-color: #ffffff;
+  padding-block: 15px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #E2E2E2;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 90px;
+}
+
+/* ______________________________________________________ Interview Tips Page ______________________________________________________ */
+
+.interview-hero {
+  padding-block: 33px 38px;
+}
+
+.interview-sec {
+  font-size: 18px;
+  font-weight: 400;
+  background: #FAF9FA;
+  color: #919191;
+  padding-block: 80px;
+}
+
+.interview-sec .interview-heading {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #242C42;
+  margin-bottom: 40px;
+}
+
+
+.interview-sec .mb-80 {
+  margin-bottom: 80px;
+}
+
+.interview-sec .mb-70 {
+  margin-bottom: 70px;
+}
+
+.interview-sec .mb-20 {
+  margin-bottom: 20px;
+}
+
+.interview-sec .mb-30 {
+  margin-bottom: 30px;
+}
+
+.interview-sec .mb-40 {
+  margin-bottom: 40px;
+}
+
+.interview-sec .list-no {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.interview-ol {
+  list-style-position: inside;
+  padding-left: 25px;
+}
+
+.interview-ul {
+  list-style-position: inside;
+  padding-left: 25px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- Visa Cost --------------------------------------------------------- */
+
+
+
+
+.visa-cost {
+  padding-block: 80px 90px;
+}
+
+.sponsorship-table {
+  width: 100%;
+}
+
+.sponsorship-table th {
+  padding-block: 30px;
+  background-color: #ffffff;
+  color: #A07FB5;
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 20px;
+}
+
+.sponsorship-table td {
+  padding-block: 20px;
+  color: #545454;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.sponsorship-table tbody tr:nth-child(odd) {
+  background-color: #FAF9FA;
+}
+
+.sponsorship-table tbody tr:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+.sponsorship-table-wrapper {
+  padding-inline: 20px;
+  border: 0.75px solid #D6D6D6;
+  border-radius: 20px;
+  margin-block: 0px 0px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.sponsorship-table--heading {
+  font-size: 30px;
+  line-height: 28px;
+  margin-block: 60px;
+  color: #545454;
+}
+
+.sponsorship-table-wrapper.second {
+  border-radius: 20px 20px 0px 0px;
+  margin-block: 0px 0px;
+}
+
+.sponsorship-table.second td {
+  line-height: 28px;
+}
+
+.sponsorship-table-footer.second {
+  display: flex;
+  padding: 24px 20px 20px 20px;
+  background-color: #A07FB5;
+  gap: 23px;
+  border-radius: 0 0 20px 20px;
+}
+
+.table-rights-reserved {
+  padding: 42px 35px 42px 20px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 21px;
+  color: #545454;
+}
+
+.reserved-for-visa {
+  padding-inline: 20px;
+}
+
+.reserved-for-visa>.container {
+  padding-block: 40px 30px;
+  border: 0.75px solid #D6D6D6;
+  border-radius: 20px;
+  margin-top: 60px;
+  background-color: white;
+}
+
+.visa-cost-paras {
+  margin-bottom: 50px;
+}
+
+.best-option h3 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.best-option p {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.sponsorship-table td.placement-pkg {
+  padding-inline: 40px 12px;
+}
+
+/* Tables Modification */
+/* flex-wrap: wrap; */
+.sponsorship-tables-group {
+  gap: 16px;
+}
+
+.sponsorship-table-box {
+  border: 0.75px solid #D6D6D6;
+  border-radius: 20px;
+  width: 100%;
+  flex-basis: 24.1%;
+  flex-grow: 1;
+  background-color: white;
+}
+
+.first-blank-row {
+  height: 20px;
+  background-color: #747373;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.last-blank-row {
+  height: 39px;
+  background-color: #747373;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.table-box--headers {
+  padding-block: 35px 97px;
+  padding-inline: 40px;
+}
+
+.table-box--headers>p:first-of-type {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.table-box--headers>p:nth-of-type(2) {
+  font-size: 16px;
+  line-height: 18px;
+  margin-block: 5px;
+}
+
+.first-blank-row~div:not(.table-box--headers) {
+  padding-inline: 40px;
+  padding-block: 11.5px;
+}
+
+/* .light-gray{background-color:#828181;}
+.opaque-white{background-color: rgba(255, 255, 255, 0.1);}
+
+.dark-gray{background-color: #747373;} */
+
+.first-box-txt>div:not(.best-option-card) {
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  max-height: 160px;
+}
+
+.first-box-txt>div::-webkit-scrollbar {
+  display: none;
+}
+
+.parent-sponsorship-box>div:not(:first-of-type):nth-of-type(odd) {
+  background-color: #828181;
+}
+
+.parent-sponsorship-box>div:not(:first-of-type):nth-of-type(even) {
+  background-color: #747373;
+}
+
+.child-sponsorship-box>div:not(:first-of-type, .best-option-card):nth-of-type(even) {
+  background-color: white;
+  color: #747373;
+}
+
+.child-sponsorship-box>div:not(:first-of-type):nth-of-type(odd) {
+  background-color: #f4f4f4;
+  color: #747373;
+}
+
+.tr {
+  height: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+
+.box--headers__extra-info> :not(span:nth-of-type(2)) {
+  flex: 1 1 0;
+}
+
+.box--headers__extra-info>span:nth-of-type(2) {
+  text-align: center;
+  width: 10%;
+}
+
+.box--headers__extra-info>span {
+  font-weight: bold;
+  color: #545454;
+}
+
+.table-box--headers.second>p:first-of-type {
+  font-size: 20px;
+  line-height: 28px;
+}
+.table-box--headers.second>p:last-of-type {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.maid-hiring-cost-sec h3 {
+  margin-block: 80px 50px;
+}
+
+.best-option-card {
+  display: flex;
+  background-color: #A07FB5;
+  border-radius: 0 0 20px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding-block: 65px;
+}
+
+.best-option-card>p:nth-of-type(1) {
+  font-size: 70px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+}
+
+.best-option-card>p:nth-of-type(2) {
+  /* margin-block: 64px; */
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+}
+
+.best-box {
+  max-width: 100%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.best-rights-reserved {
+  font-size: 16px;
+  line-height: 36px;
+  color: white;
+}
+
+.responsive--card-labels {
+  display: none;
+  padding-inline: 1rem;
+  margin-bottom: 2px;
+  color: #545454;
+  border-radius: 1rem;
+  font-size: 12px;
+  line-height: 14px;
 }
