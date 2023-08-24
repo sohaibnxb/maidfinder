@@ -12,6 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
   font-kerning: auto;
   /* outline: 2px solid red; */
+  /* font-family: Arial, Helvetica, sans-serif !important; */
 }
 
 html {
@@ -19,7 +20,7 @@ html {
   line-height: 1.4;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
-  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -112,7 +113,7 @@ header h3.card-header {
 .navbar {
   padding-inline: 140px;
   padding-block: 26px 24px;
-  background-color: #faf9fae6;
+  background-color: #faf9fa;
 }
 
 .navbar-logo {
@@ -403,7 +404,7 @@ article.maid-online {
 }
 
 .lp-sc3 .section-heading {
-  padding-block: 139px 44px;
+  padding-block: 129px 44px;
   margin-inline: auto;
   text-align: center;
   color: #242C42;
@@ -710,13 +711,13 @@ svg.heart-icon path {
 .profile__custom--filters--group {
   gap: 10px;
   margin-top: 30px;
-  padding-bottom: 150px;
+  padding-bottom: 140px;
   justify-content: center;
   margin-top: 73px;
 }
 
 .lp-sc4 header h2 {
-  margin-block: 139px 87px;
+  margin-block: 129px 87px;
   text-align: center;
 }
 
@@ -800,7 +801,7 @@ svg.heart-icon path {
 }
 
 .lp-sc5 {
-  padding-block: 139px 147px;
+  padding-block: 129px 147px;
   background-color: #FAF9FA;
 }
 
@@ -876,7 +877,7 @@ svg.heart-icon path {
   margin-inline: auto;
   width: 100%;
   background-color: #FAF9FA;
-  padding-block: 139px 150px;
+  padding-block: 129px 140px;
 }
 
 .lp-sc7>header {
@@ -977,7 +978,7 @@ svg.heart-icon path {
 
 
 .lp-sc8 {
-  padding-block: 139px 150px;
+  padding-block: 129px 140px;
 }
 
 .faq-container {
@@ -1047,7 +1048,7 @@ svg.heart-icon path {
 }
 
 .lp-sc9 {
-  padding-block: 139px 147px
+  padding-block: 129px 140px
 }
 
 .lp-sc9>header {
@@ -1072,7 +1073,7 @@ svg.heart-icon path {
   max-width: 1090px;
   width: 100%;
   margin-inline: auto;
-  padding-block: 139px 150px;
+  padding-block: 129px 140px;
 }
 
 .be-notified>p {
@@ -1175,10 +1176,10 @@ svg.heart-icon path {
   width: 100%;
   margin-inline: auto;
   padding-inline: 140px;
-  padding-block: 145px 150px;
+  padding-block: 129px 140px;
 
   display: grid;
-  grid-template-columns: 312px 1fr;
+  grid-template-columns: 350px 1fr;
 }
 
 .footer-links-section .link-groups {
@@ -1215,7 +1216,7 @@ a {
 .click-to-call {
   font-size: 46px;
   color: #919191;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 54px;
 }
 
@@ -1406,12 +1407,13 @@ a {
 .resources-hero,
 .packages-hero,
 .reviews-hero,
-.faqs-hero {
+.faqs-hero,
+.terms-hero {
   background-color: #A07FB5;
   padding-inline: 80px;
 }
 
-:is(.about-hero, .maids-hero, .resources-hero, .packages-hero, .reviews-hero, .customer-reviews, .visa-cost, .faqs-hero)>.container {
+:is(.about-hero, .maids-hero, .resources-hero, .packages-hero, .reviews-hero, .customer-reviews, .visa-cost, .faqs-hero, .terms-hero)>.container {
   max-width: 1364px;
 }
 
@@ -1435,7 +1437,7 @@ a {
 
 .aboutus-headers {
   font-size: 50px;
-  line-height: 70px;
+  line-height: 58px;
   color: #242C42;
   margin-bottom: 22px;
   font-weight: 400;
@@ -1463,6 +1465,11 @@ a {
 .aboutCards {
   padding-block: 40px;
   background-color: #FAF9FA;
+}
+
+.aboutCards .aboutus-headers {
+  font-size: 30px;
+  line-height: 34px;
 }
 
 .resourcesCards>section {
@@ -1664,7 +1671,7 @@ a {
 }
 
 .packages-hero .ul-rit-img {
-  margin-top: 5.9rem;
+  margin-top: 4.9rem;
   max-width: 524px;
 }
 
@@ -2125,7 +2132,9 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .reg-form-submit {
   all: unset;
-  padding: 19px 151px;
+  padding-block: 14px;
+  width: 100%;
+  max-width: 300px;
   border-radius: 10px;
   color: white;
   font-size: 20px;
@@ -2133,11 +2142,14 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: #A07FB5;
   margin-inline: auto;
   cursor: pointer;
+
 }
 
 .login-here {
-  margin-top: 86px;
+  margin-block: 34px 30px;
   font-size: 16px;
+  padding-inline-start: 86px;
+  color: #919191;
 }
 
 .login-here>a {
@@ -2329,7 +2341,7 @@ p.forgot-pswrd {
 }
 
 .blog-post:hover .blog-post-img>img {
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
 }
 
 .blog-post-img>img {
@@ -2337,12 +2349,12 @@ p.forgot-pswrd {
   width: 100%;
   height: auto;
   transition: 0.5s cubic-bezier(0.39, 0.58, 0.57, 1);
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
 
 .blog-post-img>img:hover {
-  transform: scale(1.1);
-  filter: grayscale(0);
+  /* transform: scale(1.1);
+  filter: grayscale(0); */
 }
 
 .blog-post-heading {
@@ -2910,4 +2922,266 @@ p.forgot-pswrd {
   font-size: 16px;
   line-height: 30px;
   color: #919191;
+}
+
+
+/* __________________________________Registration Page*/
+.register-sec {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.register-lft,
+.register-rit {
+  width: 50%;
+}
+
+/* left Section */
+.register-lft {
+  background-color: #A07FB5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-lft figcaption {
+  margin-block: 63px 32px;
+  font-size: 50px;
+}
+
+.register-lft p {
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 370px;
+}
+
+.register-lft p:first-of-type {
+  margin-bottom: 36px;
+}
+
+/* Right Section */
+
+.register-rit {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 80px;
+}
+
+
+
+.register-rit form {
+  border: 1px solid #D6D6D6;
+  border-radius: 40px;
+  background-color: #ffffff;
+  margin-left: -22%;
+  width: 100%;
+  max-width: 890px;
+  padding-block: 43px 48px;
+  padding-inline: 60px;
+}
+
+
+
+
+.register-rit form h2 {
+  font-size: 40px;
+  margin-bottom: 42px;
+  font-weight: 400;
+  color: #242C42;
+}
+
+.register-rit form .field-grps {
+  margin-bottom: 18px;
+}
+
+.register-rit form .field-grps.login-fields {
+  max-width: 376px;
+  margin-inline: auto;
+}
+
+.register-rit form .field-grps.login-fields:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.register-rit form .field-grps .form-control {
+
+  padding: 14px 22px;
+  border: 1px solid #D6D6D6;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #545454;
+  opacity: 0.5;
+  line-height: 20px;
+}
+
+.register-rit form .field-grps .form-control::placeholder {
+  color: #54545480;
+}
+
+.register-rit form .or-text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #54545480;
+  margin-block: 10px;
+  text-align: center;
+}
+
+.register-rit form .forgot-text {
+  color: #54545480;
+  font-size: 12px;
+  line-height: 14px;
+  margin-block: 8px 18px;
+  text-align: end;
+  max-width: 376px;
+  margin-inline: auto;
+}
+
+.register-outline-btn {
+  all: unset;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  padding-inline: 14px;
+  padding-block: 9px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 23px;
+  color: #A07FB5;
+  margin-inline: auto;
+  margin-bottom: 10px;
+  border: 1px solid #D6D6D6;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.register-outline-btn .btn-img {
+  width: 12%;
+}
+
+.register-outline-btn .btn-text {
+  width: 88%;
+}
+
+
+@media (max-width: 991px) {
+
+  .register-lft,
+  .register-rit {
+    width: 100%;
+    padding-block: 40px;
+  }
+
+  .register-rit form {
+    margin-left: 0;
+    border: 0;
+  }
+
+  .register-rit .login-here {
+    padding-left: 0;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width:1300px) {
+  .register-rit form {
+    margin-left: -12%;
+  }
+}
+
+
+/* _________________________________________________ Terms & Conditions Page __________________________________________________ */
+
+.terms-hero {
+  padding-block: 33px 38px;
+  background-image: url(images/terms-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 85% -1vw;
+  background-size: 12.2%;
+}
+
+.terms-hero .aboutus-paras {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.terms-sec {
+  font-size: 18px;
+  font-weight: 400;
+  background: #FAF9FA;
+  color: #919191;
+  padding-block: 80px;
+}
+
+.terms-sec .terms-heading {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #242C42;
+  margin-bottom: 40px;
+}
+
+.terms-sec .terms-sub-heading {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #242C42;
+  margin-bottom: 40px;
+}
+
+.terms-sec .mb-80 {
+  margin-bottom: 80px;
+}
+
+.terms-sec .mb-70 {
+  margin-bottom: 70px;
+}
+
+.terms-sec .mb-30 {
+  margin-bottom: 30px;
+}
+
+.terms-sec .mb-40 {
+  margin-bottom: 40px;
+}
+
+.terms-sec .list-no {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.terms-list {
+  list-style: none;
+  counter-reset: custom-counter;
+  padding-left: 60px;
+  /* Adjust the left padding for better spacing */
+}
+
+.terms-list li {
+  counter-increment: custom-counter;
+  margin-bottom: 40px;
+  position: relative;
+  /* Set position to relative for proper marker alignment */
+}
+
+.terms-list li:last-of-type {
+  margin-bottom: 0px;
+}
+
+.terms-list li::before {
+  content: counter(custom-counter)") ";
+  font-weight: bold;
+  margin-right: 5px;
+  position: absolute;
+  /* Set position to absolute for marker alignment */
+  left: -30px;
+  /* Adjust the value to align the marker with the text */
+  top: 0;
+  /* Align the marker vertically with the first line of text */
 }

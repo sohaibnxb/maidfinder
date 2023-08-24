@@ -198,12 +198,12 @@ customElements.define("registration-modal", RegModal);
 
 // Footer Components begins here
 
-class Footer extends HTMLElement{
-  constructor(){
+class Footer extends HTMLElement {
+  constructor() {
     super()
   }
 
-  connectedCallback(){
+  connectedCallback() {
     this.innerHTML = `
     <footer>
     <section class="footer-links-section">
@@ -233,7 +233,7 @@ class Footer extends HTMLElement{
                     transform="translate(12189.25 7947.5)" fill="#fff" />
                 </g>
               </svg>
-              <a href="tel:04 4427 686" class="click-to-call">04 4427 686</a>
+              <a href="tel:04 4427 686" class="click-to-call">052 189 3330</a>
             </section>
           </header>
 
